@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/ggalpa.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+.team-section{
+  overflow:hidden;
+  text-align:center;
+  
+
+}
+.team-section h1{
+text-transform: uppercase;
+margin-bottom: 60px;
+color: white;
+font-size: 40px;
+position: center;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: #3498db;
+  margin-bottom: 40px;
+}
+.ps{
+  margin-bottom: 40px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow:hidden;
+   border-radius: 50%; 
+ 
+}
+.ps a img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.5s all;
+}
+.ps a:hover > img{
+  filter: none;
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+    position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.section:target{
+  height: auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+ul{
+  float: right;
+  list-style-type: none; 
+  margin-top: 25px;
+}
+
+
+ul li{
+   display: inline-block;
+}
+
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding:5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+background-color:#fff;
+color: #000;
+}
+
+
+ul li.active a{
+  background-color:#fff;
+color: #000;
+}
